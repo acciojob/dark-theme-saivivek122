@@ -12,7 +12,7 @@ function swapTheme(){
 	else{
 		app.classList.remove("night")
 		app.classList.add("day")
-		button.classList.add("button_night")
+		button.classList.remove("button_night")
 		button.classList.add("button_day")
 	}
 }
